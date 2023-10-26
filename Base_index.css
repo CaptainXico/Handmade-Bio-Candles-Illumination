@@ -1,0 +1,97 @@
+body {
+     background-color: black;
+     margin: 2%;
+     }
+
+h1 {
+	color:white;
+     margin: 0px; 
+     }
+
+nav {
+	color:white;
+	 position: fixed;
+     float: left;
+     width: 20%; 
+     }
+
+a {
+   font-weight: bold;
+   text-decoration: none;
+   font-variant: small-caps;
+   color: white;
+   }
+a:link {
+color: white;
+text-decoration: none;
+}
+
+	@keyframes glow {
+  0% {
+    box-shadow: 0 0 14px 15px #f8f8f8;
+  }
+	20% {
+    box-shadow: 0 0 18px 19px #f8f8f8;
+  }
+	25% {
+    box-shadow: 0 0 15px 16px #f8f8f8;
+  }
+
+  50% {
+    box-shadow: 0 0 19px 20px #f8f8f8;
+  }
+  60% {
+    box-shadow: 0 0 15px 20px #f8f8f8;
+  }
+  70% {
+    box-shadow: 0 0 17px 18px #f8f8f8;
+  }
+
+  100% {
+    box-shadow: 0 0 18px 19px #f8f8f8;
+  }
+}
+
+a:hover {
+  animation: glow 1s infinite; /* Adjust the duration and other properties as needed */
+  text-decoration: none;
+	background-color: #FFFFFF;
+  color: #000000; /* Set your default text color */
+}	
+
+
+
+section {
+     float: left;
+     width: 80%;
+     padding: 10%;
+     color:white;
+	
+	.main-content {
+		position: relative;
+		transform: translateY(-10%);
+		}
+
+	.text-section {
+	font-family: 'Perpetua', 'Times New Roman', serif;
+    	width: 300px;
+    	position: absolute;
+    	top: 50%;
+    	left: 1200px; /* Adjust as needed */
+    	transform: translateY(-80%);
+
+	
+     }
+
+
+article {
+
+	 color:white;
+     }
+
+footer {
+     color:white;
+     float: bottom;
+     padding: 50px;
+     margin: 50px;
+     }
