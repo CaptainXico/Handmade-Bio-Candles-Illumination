@@ -1,0 +1,11 @@
+ /* Add this to your existing CSS file */
+
+.centered-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.centered-container .box {
+    margin: 30px; /* Adjust the margin as needed */
+}
